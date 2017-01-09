@@ -1,0 +1,38 @@
+* {
+	font-family: 'Nobile', sans-serif;
+	color:#818181;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+video {
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	background: url(assets/images/poster.png) center;
+  	background-size: cover;
+  	z-index: 0;
+}
+
+#bgVideoContainer { 
+	position:relative;
+}
+
+.videoTextOverlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    margin-left: 25px;
+}
+
+h1 {
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
