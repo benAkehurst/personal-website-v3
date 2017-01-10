@@ -36,3 +36,16 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px #000;
 }
+
+#aboutMeDiv {
+  margin-top: 25px;
+}
+
+.profilePic {
+  width: 100%;
+  height: auto;
+}
+
+.aboutMeText {
+  font-size: 14pt;
+}
