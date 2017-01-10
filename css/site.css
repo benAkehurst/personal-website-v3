@@ -49,3 +49,81 @@ h1 {
 .aboutMeText {
   font-size: 14pt;
 }
+
+#skillsContainer {
+  margin-top: 25px;
+}
+
+.row > div {  
+  /*background-color: orange;*/
+  min-height: 75px;
+  height: 100%;
+}
+
+.row > div > h2, h3, h4{  
+  /*background-color: blue;*/
+  text-align: center;
+}
+
+.row > div > div > div >img {
+  /*background-color: red;*/
+  margin: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.htmlLabel, .cssLabel, .javascriptLabel, .jqueryLabel, .nodeLabel, .photoshopLabel, .illustratorLabel, .gitLabel, .sublimeLabel {
+  /*background-color: magenta;*/
+  font-size: x-large;
+}
+
+.htmlLabel {
+  margin-left: 40px;
+}
+
+.cssLabel {
+  margin-left: 55px;
+}
+
+.javascriptLabel {
+  margin-left: 25px;
+}
+
+.jqueryLabel {
+  margin-left: 45px;
+}
+
+.nodeLabel {
+  margin-left: 40px;
+}
+
+.photoshopLabel {
+  margin-left: 20px;
+}
+
+.illustratorLabel {
+  margin-left: 30px;
+}
+
+.gitLabel {
+  margin-left: 65px;
+}
+
+.sublimeLabel {
+  margin-left: 2px;
+}
+
+#feLeft {
+  float: left;
+  margin-left: 15px;
+}
+
+#feLeftNode {
+  float: left;
+  margin-left: 145px;
+}
+
+#feRight {
+  float: right;
+  margin-right: 15px;
+}
