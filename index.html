@@ -63,16 +63,16 @@
 			                            <a href="index.html" id="navbarHome">HOME</a>
 			                        </li>
 			                        <li>
-			               		        <a href="index.html">ABOUT</a>
+			               		        <a href="#sectionAboutMe" id="aAboutMe">ABOUT</a>
 			                        </li>
 			                        <li>
-			                            <a href="index.html">WORK</a>
+			                            <a href="#sectionProjects" id="aProjects">PROJECTS</a>
 			                        </li>
 			                        <li>
-			                            <a href="index.html">CONTACT</a>
+			                            <a href="#sectionContact" id="aContact">CONTACT</a>
 			                        </li>
 			                        <li>
-			                            <a href="index.html">RESUME</a>
+			                            <a href="assets/resume/test.pdf">RESUME</a>
 			                        </li>
 			                    </ul>
 
@@ -86,35 +86,30 @@
 		</header>
 	
 		<main>
-			
-			<div class="container-fluid" id="videoDiv">	
-	  			<div class="row">
-					<div class="col-xs-12" id="bgVideoContainer">
-						<video id="bgVideoSource" preload="true" poster="assets/images/poster.png"  autoplay loop>
-							<source src="assets/video/background.mp4" type="video/mp4"/>
-							<source src="assets/video/background.ogv" type="video/ogv"/>
-							<source src="assets/video/background.webm" type="video/webm"/>
-						</video>
-						<div class="videoTextOverlay">
-							<h1>Front End</h1>
-							<h1>Back End</h1>
-							<h1>Full Stack</h1>
-							<h1>Responsive</h1>
-						</div>
-					</div><!-- /container-fullwidth -->
-				</div><!-- /row -->
-			</div><!-- /container-fluid-->
+			<div id="bgVideoContainer">	
+					<video id='videoIntro' loop autoplay preload="auto" poster="assets/images/poster.png">
+						<source src="assets/video/background.mp4" type="video/mp4"/>
+						<source src="assets/video/background.ogv" type="video/ogv"/>
+						<source src="assets/video/background.webm" type="video/webm"/>
+					</video>
+					<div class="videoTextOverlay">
+						<h1>Front End</h1>
+						<h1>Back End</h1>
+						<h1>Full Stack</h1>
+						<h1>Responsive</h1>
+					</div>
+				<div>
+
+		<section id="sectionAboutMe">
 
 			<div class="container-fluid" id="aboutMeDiv">	
 	  			<div class="row">
 	  				<div class="col-xs-12">
-
 		  				<div class="col-lg-3 col-md-3 col-xs-12 thumb">
 							<img src="assets/images/profilePic.png" alt="profile pic" class="profilePic">
 		  				</div>
-						
-						<div class="col-lg-6 col-md-4 col-xs-12">	
-							<h2>About Me</h2>
+						<div class="col-lg-9 col-md-9 col-xs-12">	
+							<h2 class="page-header">About Me</h2>
 							<div>
 								<p class="aboutMeText">
 									I'm a 26 year old junior web developer, originally from London, England, now living in Israel.
@@ -127,20 +122,16 @@
 								</p>
 							</div>
 						</div><!-- /about text -->
-					
 					</div><!-- col-xs-12 -->
 				</div><!-- /row -->
 			</div><!-- /container-fluid-->
-						
+
 			<div class="container-fluid" id="skillsContainer">	
 	  			<div class="row">
-	  				
-
-	  				<div class="col-xs-12">
-	  					<h2>Technologies</h2>
+	  				<div class="page-header">
+	  					<h2 >Technologies</h2>
 	  					<h4>Languages, Frameworks & Libraries</h4>
 	  				</div>
-	  				
 	  				<div class="col-xs-12 col-sm-4 col-md-4">
 	  					<h3>Front End</h3>
 	  						<div id="feLeft">	
@@ -156,7 +147,6 @@
 	  							<label class="jqueryLabel">jQuery</label>
 							</div>  				
 	  				</div>
-
 	  				<div class="col-xs-12 col-sm-4 col-md-4">
 	  					<h3>Back End</h3>
 	  						<div id="feLeftNode">	
@@ -164,7 +154,6 @@
 	  							<label class="nodeLabel">Node.js</label>
 							</div>
 	  				</div>
-
 	  				<div class="col-xs-12 col-sm-4 col-md-4">
 	  					<h3>Tools</h3>
 	  						<div id="feLeft">	
@@ -180,45 +169,91 @@
 	  							<label class="sublimeLabel">Sublime Text</label>
 							</div>  
 	  				</div>
-
-
 				</div><!-- /row -->
-			</div><!-- /container-fluid-->
-						
-					
+			</div><!-- /container-fluid-->				
+		</section>
 
-			<div class="container-fluid">	
-	  			<div class="row">
+		<section id="sectionProjects">				
+			
+			<div class="container-fluid" id="projectContainer">
+				<div class="row" id="imgMain">
 					<div class="col-xs-12">
+					    <div class="col-lg-12">
+					        <h2 class="page-header">Projects</h2>
+					    </div>
 
-						<div>	
+					    <div class="col-lg-3 col-md-4 col-xs-12 thumb" id="bootstrap">
+							<a href="#">
+					        	<img class="img-responsive" src="assets/images/bootstrap.png" id="projectImg">  
+					        		<label>Bootstrap Project - Built this website to learn the Bootstrap framework.</label>
+					        </a>  
+					    </div>
+						<div class="col-lg-3 col-md-4 col-xs-12 thumb" id="paleo">
+					    	 <a href="http://www.isthispaleo.site/">
+					        	<img class="img-responsive" src="assets/images/isThisPaleo.png" id="projectImg">
+					    			<label>Is this Paleo? - Using jQuery, you can enter a food type to check if it is paleo diet friendly.</label>
+					        </a>
+					    </div>
+					    <div class="col-lg-3 col-md-4 col-xs-12 thumb" id="dice">
+				            <a href="http://benakehurst.online/projects/roll_the_dice/index.html">
+					        	<img class="img-responsive" src="assets/images/rollTheDice.png" id="projectImg">
+					        		<label>Roll The Dice - Using JavaScript, we can simulate the roll of 2 dice.</label>
+					        </a>
+					    </div>
+					    <div class="col-lg-3 col-md-3 col-xs-12 thumb" id="lottery">
+							<a href="http://benakehurst.online/projects/lottery_numbers/index.html">
+					        	<img class="img-responsive" src="assets/images/lotteryNumbers.png" id="projectImg">
+					        		<label>Lottery Numbers - Generates a series of random numbers for to play the lottery.</label>
+					        </a>
+					    </div>
+					    <div class="col-lg-3 col-md-4 col-xs-12 thumb" id="task">
+				            <a href="http://benakehurst.online/projects/simple_to_do_list/index.html">
+					        	<img class="img-responsive" src="assets/images/simpleTaskBoard.png" id="projectImg">
+					        		<label>Simple Task Board - A quick way to make an interactive to do list.</label>
+					        </a>
+					    </div>
+					</div>
+				</div>
 
-						Projects
+		</section>	
 
+		<section id="sectionContact">
+
+				<div class="container-fluid" id="contactMeDiv">	
+	  			<div class="row">
+	  				<div class="col-xs-12">
+	  				 	<div class="col-lg-12">
+					        <h2 class="page-header">Contact Me</h2>
+					    </div>
+
+						<div class="col-xs-12 col-sm-2 col-md-3">
+							<img src="assets/logos/mail.png" alt="mail icon" class="contactImg" id="contactMail">
+								<label>hi [@] benakehurst.online</label>
 						</div>
-						
-						
-					</div><!-- /container-fullwidth -->
+						<div class="col-xs-12 col-sm-2 col-md-3">
+							<a href="https://github.com/benAkehurst">
+								<img src="assets/logos/git.png" alt="git icon" class="contactImg">
+							</a>	
+						</div>
+						<div class="col-xs-12 col-sm-2 col-md-3">
+							<a href="https://il.linkedin.com/in/ben-akehurst-92329347">
+								<img src="assets/logos/linkedin.png" alt="linkedin icon" class="contactImg">
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-2 col-md-3">
+							<a href="https://www.instagram.com/thatbritisraeli/">
+								<img src="assets/logos/instagram.png" alt="instagram icon" class="contactImg">
+							</a>
+						</div>
+					</div><!-- col-xs-12 -->
 				</div><!-- /row -->
 			</div><!-- /container-fluid-->
+		</section>
 
 		</main>
        	
     	<footer>
-       		
        	</footer>
 
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
