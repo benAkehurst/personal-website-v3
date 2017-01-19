@@ -41,6 +41,7 @@ h1 {
 
 #aboutMeDiv {
   margin-top: 25px;
+  top: -40px;
 }
 
 .profilePic {
@@ -145,6 +146,8 @@ div > h2{
 #contactMeDiv {
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .contactImg {
