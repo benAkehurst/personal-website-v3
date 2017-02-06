@@ -54,6 +54,20 @@ h1 {
   font-size: 16pt;
 }
 
+.page-header {
+  text-align: center;
+}
+
+
+.divFrontEnd, .divBackend, .divTools {
+  text-align: center;
+}
+
+.imgMean {
+  width:100%;
+}
+
+
 #skillsContainer {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -72,61 +86,6 @@ h1 {
   margin: 2px;
   width: 90%;
   height: auto;
-}
-
-.htmlLabel, .cssLabel, .javascriptLabel, .jqueryLabel, .nodeLabel, .photoshopLabel, .illustratorLabel, .gitLabel, .sublimeLabel {
-  font-size: large;
-}
-
-.htmlLabel {
-  margin-left: 40px;
-}
-
-.cssLabel {
-  margin-left: 40px;
-}
-
-.javascriptLabel {
-  margin-left: 25px;
-}
-
-.jqueryLabel {
-  margin-left: 40px;
-}
-
-.nodeLabel {
-  margin-left: 40px;
-}
-
-.photoshopLabel {
-  margin-left: 20px;
-}
-
-.illustratorLabel {
-  margin-left: 30px;
-}
-
-.gitLabel {
-  margin-left: 50px;
-}
-
-.sublimeLabel {
-  margin-left: 2px;
-}
-
-#feLeft {
-  float: left;
-  margin-left: 35px;
-}
-
-#feLeftNode {
-  float: left;
-  margin-left: 35px;
-}
-
-#feRight {
-  float: right;
-  margin-right: 35px;
 }
 
 #projectImg {
@@ -153,16 +112,3 @@ div > h2{
 .contactImg {
   margin: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
