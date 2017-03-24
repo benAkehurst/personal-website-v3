@@ -3,6 +3,10 @@
 	color:#545454;
 }
 
+body {
+  background-color: #EEEEEE;
+}
+
 #bgVideoContainer { 
   position:relative;
 }
@@ -107,6 +111,11 @@ div > h2{
   margin-bottom: 25px;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+.socail {
+  margin-top: 25px;
+  text-align: center;
 }
 
 .contactImg {
