@@ -1,699 +1,164 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-    <head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Ben Akehurst - Web Developer</title>
-        <meta name="description" content="Ben Akehurst Online is the personal website of Ben Akehurst, a web developer based in Israel">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!-- Bootstrap CDN -->
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<!-- jQuery CDN -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		<!-- Lato Font - Google Hosted -->
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
-		<!-- Link to Font Awesome -->
-		<script src="https://use.fontawesome.com/7d0faa3ea8.js"></script>
-		
-		<!-- Link to CSS -->
-		<link rel="stylesheet" href="css/site.css">
-
-		<!-- Link to Google Analytics JS -->
-		<script src="js/analytics.js"></script>
-
-		<!-- Link to JS -->
-		<script src="js/site.js"></script>
-	
-    </head>
-    <body>
-		
-		<header>
-
-			<div class="container-fullwidth">
-				<div class="row">
-	            	<div class="col-xs-12">
-		                <!-- The entire navbar: -->
-		                <div class="navbar navbar-default">
-		                    <!-- Navbar header: -->
-		                    <div class="navbar-header">
-		                        
-		                        <!-- Responsive menu buttons: -->
-		                        <a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-		                            <span class="icon-bar"></span>
-		                            <span class="icon-bar"></span>
-		                            <span class="icon-bar"></span>
-		                        </a>
-			                    <!-- Company name text: -->
-			                    <a href="index.html" class="navbar-brand">BEN AKEHURST</a>
-
-			                </div><!-- /navbar-header -->
-
-			                <!-- Navigation controls (menu): -->
-			                <div id="menu" class="navbar-collapse collapse">
-
-			                    <ul class="nav navbar-nav navbar-right">
-			                        <li>
-			                            <a href="index.html" id="navbarHome">HOME</a>
-			                        </li>
-			                        <li>
-			               		        <a href="#sectionAboutMe" id="aAboutMe">ABOUT</a>
-			                        </li>
-			                        <li>
-			                            <a href="#sectionProjects" id="aProjects">PROJECTS</a>
-			                        </li>
-			                        <li>
-			                            <a href="#sectionContact" id="aContact">CONTACT</a>
-			                        </li>
-			                        <li>
-			                            <a href="assets/resume/BenAkehurst_CV2017.pdf">RESUME</a>
-			                        </li>
-			                    </ul>
-
-			            	</div><!-- /navbar-collapse collapse-->
-
-			        	</div><!-- /navbar navbar-default-->
-					</div><!-- /col-xs-12 -->
-				</div><!-- /row -->
-	        </div><!-- /container-fullwidth -->
-
-		</header>
-	
-		<main>
-			<!-- <div id="bgVideoContainer">	
-					<video id='videoIntro' loop autoplay preload="auto" poster="assets/images/poster.png">
-						<source src="assets/video/background.mp4" type="video/mp4"/>
-						<source src="assets/video/background.ogv" type="video/ogv"/>
-						<source src="assets/video/background.webm" type="video/webm"/>
-					</video>
-					<div class="videoTextOverlay">
-						<h1>Ben Akehurst</h1>
-						<h1>Front End</h1>
-						<h1>Back End</h1>
-						<h1>Full Stack</h1>
-					</div>
-				<div> -->
-
-			<section id="sectionAboutMe">
-
-			<div class="container-fluid" id="aboutMeDiv">	
-	  			<div class="row">
-	  				<div class="col-xs-12">
-						<div class="col-lg-9 col-md-9 col-xs-12">
-							<h2 id="nameAtTop">Ben Akehurst - Full Stack Web Developer</h2>	
-
-							<h2 id="nameAtTop">About Me</h2>
-							<div>
-								<p class="aboutMeText">
-									Hi, I'm Ben Akehurst and I'm a web developer, originally from London, England, now living in Israel.
-								</p>
-								<p class="aboutMeText">
-									I first started to learn to code for the web in 2015, and quickly realised that I loved it! 
-
-									I am currently studying at John Bryce in Tel Aviv, to further my skills and understanding of Full Stack Web Development so that I can start a career as a web developer.
-								</p>
-								<p class="aboutMeText">
-									My personal website is a forum to show all the projects I've worked on during my studies, and a number of personal projects to build upon my understanding.
-								</p>
-								<p class="aboutMeText">
-									Why not take a <a href="#sectionProjects" id="lookBelow">look below</a> at some of the things I’ve done so far…
-								</p>
-							</div>
-						</div><!-- /about text -->
-						<div class="col-lg-3 col-md-3 col-xs-12 thumb">
-							<img src="assets/images/profilePic.png" alt="profile pic" class="profilePic">
-		  				</div>
-					</div><!-- col-xs-12 -->
-				</div><!-- /row -->
-			</div><!-- /container-fluid-->
-			
-			<!-- Skills -->
-			<div class="row">	
-	  			
-	  			<div id="skillsContainer">
-							  				
-					<div class="page-header col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h2 >Technologies</h2>
-						<h4>Languages, Frameworks & Libraries</h4>
-					</div>
-							  				
-					<!-- Front End Box -->
-
-					<div class="divFrontEnd col-xs-12 col-sm-4 col-md-4 col-lg-4">
-						
-						<div class="divTitleFrontend">
-							<h3>Front End</h3>
-						</div>
-
-						<div class="divJquery col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/angular.png" alt="angular logo">
-						</div>
-
-						<div class="divJavascript col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/javascript.png" alt="javascript logo">
-						</div>	
-							  	
-						<div class="divHTML col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/html.png" alt="html5 logo">
-						</div>		
-							  	
-						<div class="divCSS col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/css.png" alt="css logo">	
-						</div>	
-					
-					</div>	  						
-							  				
-					<!-- Back End Box -->
-
-					<div class="divBackend col-xs-12 col-sm-4 col-md-4 col-lg-4">
-
-						<div class="divTitleBackend">
-							<h3>Back End</h3>
-						</div>
-						
-						<div class="classPhp col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/node.png" alt="node logo">
-						</div>
-
-						<div class="classPhp col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/php.png" alt="php logo">
-						</div>
-
-						<div class="classWordpress col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/wordpress.png" alt="wordpress logo">
-						</div>
-						
-					</div>
-					
-					<!-- Tools Box -->
-
-					<div class="divTools col-xs-12 col-sm-4 col-md-4 col-lg-4">
-						
-						<div class="divTitleTools">
-							<h3>Tools</h3>
-						</div>
-							  	
-						<div class="divPhotoshop col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/photoshop.png" alt="photoshop logo">
-						</div>
-
-						<div class="divIllustrator col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/illustrator.png" alt="illustrator logo">
-						</div>		
-							  	
-						<div class="divGit col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/git.png" alt="git logo">
-						</div>	
-							  								
-						<div class="classSublime col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="assets/logos/sublime.png" alt="sublime logo">
-						</div>
-					
-					</div>	
-
-				</div>
-
-			</div> <!-- End of Skills -->
-			</section>
-
-			<section id="sectionProjects">				
-			
-				<div class="container-fluid" id="projectContainer">
-
-					<h2 class="page-header">Projects</h2>
-
-						<div class="row">
-			    			
-			    			<!-- <div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img src="http://placehold.it/250x150">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Password Generator</h2>
-										<span>
-											<p>Built in AngularJS, my unique password generator creates 6, 8, 12 or 16 character password</p>
-										</span>
-										<span>
-											<p>Built using AngularJS and hosted on Firebase</p>
-										</span>
-										<span>
-											<a href="#">View Project</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div> -->
-
-    						<!-- Playlistim Website -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<iframe width="250" height="150" src="https://www.youtube.com/embed/I0kNhqMoC3I" frameborder="0" allowfullscreen></iframe>
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Playlistim</h2>
-										<span>
-											<p>A fullstack web application where you can open an account and save a personal playlist of youtube videos. Please veiw the explainer video to see the functionality of the website, and check out the github repo for the code.</p>
-										</span>
-										<span>
-											<p>Technologies: AngularJS, nodejs, mongoDB</p>
-										</span>
-										<span> 
-											<a href="https://github.com/benAkehurst/playlistim-v2">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- Hanoi Website -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/hanoi.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Website mockup for Hanoi</h2>
-										<span>
-											<p>A full frontend website built for Hanoi, a resturant in Tel Aviv. This was an exerice in combining AngularJS, CSS and modern website design.</p>
-										</span>
-										<span>
-											<p>Technologies: AngularJS</p>
-										</span>
-										<span>
-											<a href="https://benakehurst.github.io/hanoi-website-mockup/#!/">View Project</a> | 
-											<a href="https://github.com/benAkehurst/hanoi-website-mockup">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- Password Generator -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/passwordGenerator.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Unique Password Generator</h2>
-										<span>
-											<p>Built unsing AngularJS, my unique password generator creates 8, 10, 12 or 16 character passwords.</p>
-										</span>
-										<span>
-											<p>Technologies: AngularJS</p>
-										</span>
-										<span>
-											<a href="https://password-generator-e6136.firebaseapp.com">View Project</a> | 
-											<a href="https://github.com/benAkehurst/password-generator">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- is this paleo? -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/isThisPaleo.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Is this Paleo?</h2>
-										<span>
-											<p>You can serch to see if a food is paleo.</p>
-										</span>
-										<span>
-											<p>Technologies: jQuery, Javascript, HTML, CSS</p>
-										</span>
-										<span>
-											<a href="http://www.isthispaleo.site/">View Project</a> | 
-											<a href="https://github.com/benAkehurst/is-this-paleo">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- Weather Where you Are -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/weatherWhere.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Weather Where You Are</h2>
-										<span>
-											<p>Using the users IP address, their location is used to call the Openweathermap API to fetch the weather in the users location.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3, JavaScript, jQuery, AJAX</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/weather-where-you-are/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/weather-where-you-are">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- Random Quote Generator -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/randomQuote.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Random Quote Generator</h2>
-										<span>
-											<p>Each click of a button calls an API for a new random quote.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML, CSS, JavaScript, jQuery</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/random-quote-generator/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/random-quote-machine">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-
-    						<!-- John Akehurst Online -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/jAkehurstOnline.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>John Akehurst - Gallery Website</h2>
-										<span>
-											<p>A gallery site for a UK based, mixed media artist.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3</p>
-										</span>
-										<span>
-											<a href="http://www.johnakehurst.online">View Project</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-
-    						<!-- Menu Maker -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/menuMaker.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Menu Generator</h2>
-										<span>
-											<p>A project built for a Sous Chef at a private members club, this generator creates a random menu for a full week of service from a set bank of menu items.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3, JavaScript, jQuery</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/menu_maker/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/matts-menu-generator">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- Rock Paper Scissors -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/rockPaperScissors.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Rock Paper Scissors Game</h2>
-										<span>
-											<p>The user clicks a weapon for the game, which activates a function to pick the computers weapon.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML, CSS, JavaScript, jQuery</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/rock-paper-scissors/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/rock-paper-scissors">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- GIF Search -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/gifSearch.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>GIF Search</h2>
-										<span>
-											<p>Using the GIPHY API, you can seach for GIFs or get random GIFs.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML, CSS, jQuery, AJAX</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/gif-search/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/gif-search">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- Bootstrap Project -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/bootstrap.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>My Fly</h2>
-										<span>
-											<p>Built as a project at John Bryce, this website uses skills gained in frontend development, and encompases the Bootstrap framwork.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/bootstrap-project/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/bootstrap-project">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-							
-							<!-- Tip Calculator -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/tipCalculator.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Tip Calculator</h2>
-										<span>
-											<p>Built in pure Javascript, you can enter the final price of a bill, and then it works out a 12, 15 or 17% tip, and displays the tip total and total final price.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML, CSS, JavaScript</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/tip-calculator/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/tip-calculator">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-
-    						<!-- Roll the Dice -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/rollTheDice.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Roll the Dice</h2>
-										<span>
-											<p>Built in pure Javascript, this app recreates the effect of rolling 2 dice.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3, JavaScript</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/roll_the_dice/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/rollTheDice">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-
-    						<!-- Lottery Numbers -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/lotteryNumbers.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Lottery Numbers</h2>
-										<span>
-											<p>Built in pure Javascript, this app picks numbers for use in the Israeli Lottery.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3, JavaScript</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/lottery_numbers/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/lottery-number-picker">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-
-    						<!-- Simple Task Board -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/simpleTaskBoard.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>To Do List</h2>
-										<span>
-											<p>A client side to do list, where you can add and remove tasks.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3, JavaScript</p>
-										</span>
-										<span>
-											<a href="http://benakehurst.online/projects/simple_to_do_list/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/simple-todo-list">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-
-    						<!-- Time Zones -->
-    						<div class="projContainer">
-			    				<div class="project">
-			    					
-			    					<div class="img col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			    						<img class="img-responsive" src="assets/images/eastWest.png" id="projectImg">
-			    					</div>
-
-			    					<div class="desc col-xs-12 col-sm-8 col-md-8 col-lg-8">
-			    						<h2>Time Zones</h2>
-										<span>
-											<p>This app shows the local time of the user as well as the time on the East and West cost of the USA.</p>
-										</span>
-										<span>
-											<p>Technologies: HTML5, CSS3, Javascript</p>
-										</span>
-										<span>
-											<a href="http://www.benakehurst.online/projects/timezone/index.html">View Project</a> | 
-											<a href="https://github.com/benAkehurst/east-west-time">View on Github</a>
-										</span>
-			    					</div>
-			    				</div>
-    						</div>
-
-    					</div>
-
-				</div>
-
-			</section>
-
-		</main>
-       	
-    	<footer>
-			<section id="sectionContact">
-
-			<div class="container-fluid" id="contactMeDiv">	
-	  			<div class="row">
-
-	  				<div class="col-xs-12">
-	  				 	<div class="col-lg-12">
-					        <h2 class="page-header">Contact Me</h2>
-					    </div>
-					</div>
-
-					<div class="contactForm">
-	  					
-	  					<form method="POST" action="http://formspree.io/benakehurst1@gmail.com">
-						  
-						  <div class="form-group">
-							  <label for="exampleInputEmail1"> Your Email address</label>
-							  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
-							  <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
-						  </div>
-						  <div class="form-group">
-						    <label for="exampleTextarea">Your Message</label>
-						    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-						  </div>
-
-						  <button type="submit" class="btn btn-primary">Send</button>
-
-						</form>
-	  				
-	  				</div>
-
-					<div class="socail">
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-							<a href="https://www.linkedin.com/in/ben-akehurst"><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i></a>
-						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-							<a href="https://github.com/benAkehurst"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
-						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">								
-							<a href="https://www.instagram.com/thatbritisraeli/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
-						</div>
-					</div>
-
-					</div><!-- col-xs-12 -->
-				</div><!-- /row -->
-			</div><!-- /container-fluid-->
-			</section>
-       	</footer>
-
-    </body>
+<head>
+    <title>Ben Akehurst - Web Developer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ben Akehurst Online is the personal website of Ben Akehurst, a web developer based in Israel">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="#top">Top</a></li>
+            <li><a href="#work">Knowledge</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="assets/resume/BenAkehurst_CV2017.pdf">Resume</a></li>
+        </ul>
+    </nav>
+    <!-- Home -->
+    <div class="wrapper style1 first">
+        <article class="container" id="top">
+            <div class="row">
+                <div class="4u 12u(mobile)">
+                    <span class="image fit"><img src="assets/images/profilepic.jpg" alt="" /></span>
+                </div>
+                <div class="8u 12u(mobile)">
+                    <header>
+                        <h1>Hi. I'm <strong>Ben Akehurst</strong>.</h1>
+                    </header>
+                    <p>I'm a <strong><a href="https://github.com/benAkehurst">web developer</a></strong>, but I do other things too. I <a href="https://www.instagram.com/thatbritisraeli/">take photos</a> &amp; I make <a href="https://www.youtube.com/channel/UCC1hXkgjc0LEwNgjC3HB3lQ">youtube videos</a>.</p>
+                    <a href="#work" class="button big scrolly">Lets get to know me</a>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!-- Work -->
+    <div class="wrapper style2">
+        <article id="work">
+            <header>
+                <h2>Here's what I know.</h2>
+                <p>As a front end developer, I work day-to-day with Javascript and AngularJS, but I have a great full stack knowledge.</p>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <span class="icon featured fa-desktop"></span>
+                            <h3>Front End</h3>
+                            <p>My main skills are HTML, CSS, Javascript and AngularJS.</p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <span class="icon featured fa-database"></span>
+                            <h3>Back End</h3>
+                            <p>I can work with nodeJS, MongoDB, mySql, php and Wordpress.</p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <span class="icon featured fa-keyboard-o"></span>
+                            <h3>I also know:</h3>
+                            <p>SEO, Google Analytics, User acquisition, PPC and online advertising.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>Why not check out some of the projects I have worked on?</p>
+                <a href="#portfolio" class="button big scrolly">See some of my recent work</a>
+            </footer>
+        </article>
+    </div>
+    <!-- Portfolio -->
+    <div class="wrapper style3">
+        <article id="portfolio">
+            <header>
+                <h2>Here’s some stuff I've made recently.</h2>
+                <p>These are a selection of personal projects completed.</p>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <article class="box style2">
+                            <a href="https://www.youtube.com/embed/I0kNhqMoC3I" class="image featured"><img src="assets/images/playlistim.png" alt="" /></a>
+                            <h3><a href="https://github.com/benAkehurst/playlistim-v2">Playlistim</a></h3>
+                            <p>A fullstack web application where you can open an account and save a personal playlist of youtube videos. Click the image above to see the functionality of the webapp, and check out the github repo for the code. Technologies: <strong>AngularJS, nodejs, mongoDB</strong></p>
+                        </article>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <article class="box style2">
+                            <a href="https://github.com/benAkehurst/hanoi-website-mockup" class="image featured"><img src="assets/images/hanoi.jpg" alt="" /></a>
+                            <h3><a href="https://benakehurst.github.io/hanoi-website-mockup/#!/">Hanoi Website</a></h3>
+                            <p>A full frontend website built for Hanoi, a resturant in Tel Aviv. This was an exerice in combining AngularJS, CSS and modern website design. Technologies: <strong>AngularJS</strong></p>
+                        </article>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <article class="box style2">
+                            <a href="https://github.com/benAkehurst/password-generator" class="image featured"><img src="assets/images/passwordgenerator.jpg" alt="" /></a>
+                            <h3><a href="https://password-generator-e6136.firebaseapp.com/">Unique Password Generator</a></h3>
+                            <p>Built unsing AngularJS, my unique password generator creates 8, 10, 12 or 16 character passwords. Technologies: <strong>AngularJS</strong></p>
+                        </article>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <article class="box style2">
+                            <a href="https://github.com/benAkehurst/weather-where-you-are" class="image featured"><img src="assets/images/weatherwhere.jpg" alt="" /></a>
+                            <h3><a href="http://benakehurst.online/projects/weather-where-you-are/index.html">Weather Where You Are</a></h3>
+                            <p>Using the users IP address, their location is used to call the Openweathermap API to fetch the weather in the users location. Technologies: <strong>HTML5, CSS3, JavaScript, jQuery, AJAX</strong></p>
+                        </article>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <article class="box style2">
+                            <a href="https://github.com/benAkehurst/matts-menu-generator" class="image featured"><img src="assets/images/menumaker.jpg" alt="" /></a>
+                            <h3><a href="http://benakehurst.online/projects/menu_maker/index.html">Menu Generator</a></h3>
+                            <p>A project built for a Sous Chef at a private members club, this generator creates a random menu for a full week of service from a set bank of menu items. Technologies: <strong>HTML5, CSS3, JavaScript, jQuery</strong></p>
+                        </article>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <article class="box style2">
+                            <a href="https://github.com/benAkehurst/is-this-paleo" class="image featured"><img src="assets/images/isthispaleo.jpg" alt="" /></a>
+                            <h3><a href="http://www.isthispaleo.site/">Is this Paleo?</a></h3>
+                            <p>You can use this tool serch to see if a food is suitable for the paleo diet. Technologies: <strong>jQuery, Javascript, HTML, CSS</strong></p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>Want to see the rest of my work? <a href="https://github.com/benAkehurst/">Go to my Github</a>.</p>
+                <h3>Find me on ...</h3>
+                <ul class="social">
+                    <li><a href="https://www.linkedin.com/in/ben-akehurst" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/benAkehurst" class="icon fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="https://www.instagram.com/thatbritisraeli/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCC1hXkgjc0LEwNgjC3HB3lQ" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+                </ul>
+            </footer>
+        </article>
+    </div>
+    <footer>
+        <ul id="copyright">
+            <li>&copy; Ben Akehurst. All rights reserved.</li>
+        </ul>
+    </footer>
+    </article>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/analytics.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
